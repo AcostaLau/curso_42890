@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 600px) {
+    /* div{
+        font-size: 50px;
+        background-color: blue;
+    } */
+}
+
+.t{
+    text-align: center;
+}
+
+.imagen{
+    height: 50px;
+    width: 50px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+.cambioColor{
+    background-color: red;
+}
+.colornav{
+    background-color: red;
+}
+.display-none-b{
+    display: block;
+}
+.display-none{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .display-none-b{
+        display: none;
+    }
+    .display-none{
+        display: block;
+    }
+    .color_bg_a{
+        background-color: blue;
+    }
+}
