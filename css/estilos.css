@@ -1,11 +1,3 @@
-
-@media screen and (max-width: 600px) {
-    /* div{
-        font-size: 50px;
-        background-color: blue;
-    } */
-}
-
 .t{
     text-align: center;
 }
@@ -33,6 +25,37 @@ img{
     display: none;
 }
 
+
+
+.containerLetras{
+    display: flex;
+}
+
+.back-red {
+    background-color: red;
+    --bs-bg-opacity: 1;
+}
+.container-div{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+.container-div div{
+    width: 100%;
+}
+.div-1{
+    background-color: red;
+}
+.div-2{
+    background-color: blue;
+}
+.div-3{
+    background-color: green;
+}
+
+
+
+/* vista mobile */
 @media screen and (max-width:600px){
     .display-none-b{
         display: none;
@@ -43,4 +66,23 @@ img{
     .color_bg_a{
         background-color: blue;
     }
+    div{
+        font-size: 70px;
+    }
+    .container-div{
+        flex-direction: column;
+    }
+    .div-1{
+        background-color: blue;
+    }
+    .div-2{
+        background-color: red;
+    }
+    .div-3{
+        background-color: yellow;
+    }
+}
+
+@media screen  and (max-width: 792px){
+    
 }
